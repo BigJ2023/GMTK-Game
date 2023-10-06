@@ -43,7 +43,9 @@ public class CameraScript : MonoBehaviour
         {
             cameraView.intensity = 0;
         }
+
     }
+
 
     //Increases rotation speed of camera to whatever value is passed in
     public void setToHardMode(float rotSpeed)

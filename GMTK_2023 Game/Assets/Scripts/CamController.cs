@@ -9,12 +9,17 @@ public class CamController : MonoBehaviour
     public GameObject[] cameras;
     public GameObject[] aliensList;
 
-    private float changeInterval = 3.0f;
-    private float lives = 3;
+    //change Interval and switch speed (idk if this should be randomly made or not)
+    [SerializeField] private float changeInterval = 3.0f;
+    [SerializeField] private float changeSpeed = 3.0f;
+
     private float diffSpeed = 90f;
+
+    //Game Attributes
+    private float lives = 3;
     void Start()
     {
-        InvokeRepeating("PickCamera", changeInterval, changeInterval);
+        InvokeRepeating("PickCamera", changeInterval, changeSpeed);
     }
 
     // Update is called once per frame

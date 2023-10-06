@@ -853,6 +853,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6224619457420279263, guid: 51bc4a414ae1820478d3651374ab9433, type: 3}
+      propertyPath: changeSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6224619457420279263, guid: 51bc4a414ae1820478d3651374ab9433, type: 3}
+      propertyPath: changeInterval
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6224619457420279263, guid: 51bc4a414ae1820478d3651374ab9433, type: 3}
       propertyPath: cameras.Array.size
       value: 4
       objectReference: {fileID: 0}
